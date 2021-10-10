@@ -1,6 +1,6 @@
 module github.com/why444216978/grpc-example
 
-go 1.15
+go 1.14
 
 require (
 	github.com/coreos/go-etcd v2.0.0+incompatible // indirect
