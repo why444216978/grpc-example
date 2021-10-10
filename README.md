@@ -1,10 +1,10 @@
 # 生成proto
-pwd：grpc-example
-<br>
-protoc --proto_path=. --go_out=.  --go-grpc_out=. --grpc-gateway_out=. ./response/v1/response.proto 
-<br>
-protoc --proto_path=. --go_out=.  --go-grpc_out=. --grpc-gateway_out=. ./proto/v1/hello.proto 
-<br>
+```
+$pwd
+$/home/users/weihaoyu/go/own/grpc-example
+$protoc --proto_path=. --go_out=.  --go-grpc_out=. --grpc-gateway_out=. ./response/v1/response.proto 
+$protoc --proto_path=. --go_out=.  --go-grpc_out=. --grpc-gateway_out=. ./proto/v1/hello.proto 
+```
 
 # 运行
 ```
