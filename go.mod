@@ -1,4 +1,4 @@
-module grpc
+module github.com/why444216978/grpc-example
 
 go 1.15
 
