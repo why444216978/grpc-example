@@ -6,7 +6,6 @@ protoc --proto_path=. --go_out=.  --go-grpc_out=. --grpc-gateway_out=. ./respons
 protoc --proto_path=. --go_out=.  --go-grpc_out=. --grpc-gateway_out=. ./proto/v1/hello.proto 
 
 <br>
-<br>
 # 运行
 $go run server/server.go 
 <br>
