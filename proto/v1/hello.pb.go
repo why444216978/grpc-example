@@ -7,9 +7,9 @@
 package v1
 
 import (
+	v1 "github.com/why444216978/grpc-example/response/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	v1 "grpc/response/v1"
 	reflect "reflect"
 	sync "sync"
 )
