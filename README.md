@@ -7,8 +7,11 @@ protoc --proto_path=. --go_out=.  --go-grpc_out=. --grpc-gateway_out=. ./proto/v
 <br>
 
 # 运行
-go run server/server.go 
-<br>
-go run client/client.go 
-<br>
+```
+$go run server/server.go 
+```
+
+```
+$go run client/client.go 
 Name:"why"  Age:18
+```
